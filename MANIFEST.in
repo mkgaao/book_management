@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include book_management *.css
+recursive-include book_management *.csv
+recursive-include book_management *.html
+recursive-include book_management *.ico
+recursive-include book_management *.js
+recursive-include book_management *.json
+recursive-include book_management *.md
+recursive-include book_management *.png
+recursive-include book_management *.py
+recursive-include book_management *.svg
+recursive-include book_management *.txt
+recursive-exclude book_management *.pyc
